@@ -1,6 +1,5 @@
 ﻿namespace HR.LeaveManagement.Application;
 
-public class ApplicationIdenitfier
-{
+public class ApplicationMarker{
 
 }

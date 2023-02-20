@@ -2,7 +2,7 @@
 
 namespace HR.LeaveManagement.Domain;
 
-public class LeaveRequest :BaseEntity
+public class LeaveRequest :AuditableBaseEntity
 {
     public DateTime StartDate { get; set; } 
     public DateTime EndDate { get; set; }

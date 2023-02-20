@@ -14,7 +14,7 @@ public static class ServiceRegistration
     {
 
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
-        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<ApplicationIdenitfier>());
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<ApplicationMarker>());
 
         return services;
     }

@@ -2,7 +2,7 @@
 
 namespace HR.LeaveManagement.Domain;
 
-public class LeaveType : BaseEntity
+public class LeaveType : AuditableBaseEntity
 {
     public string Name { get; set; } = string.Empty;
     public int DefaultDays { get; set; }

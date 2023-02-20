@@ -15,9 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{F6CFFF2F-765D-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{EABCA30D-A21F-4872-8013-1242EB55E31A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{4E0C427E-F12E-476C-809B-BF20E88672CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.LeaveManagement.Domain", "HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj", "{4E0C427E-F12E-476C-809B-BF20E88672CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{A3610317-CB7D-447E-B7AE-B8E36952470C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{A3610317-CB7D-447E-B7AE-B8E36952470C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence\HR.LeaveManagement.Persistence.csproj", "{3A1FEDC3-4569-4CAA-88CE-88AD12E6397A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Infrastructure", "HR.LeaveManagement.Infrastructure\HR.LeaveManagement.Infrastructure.csproj", "{CEE19E74-FFFB-42D8-AC15-06D3E542142D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Api", "HR.LeaveManagement.Api\HR.LeaveManagement.Api.csproj", "{88B2A720-EC48-4AE8-9C10-C71C29BF3202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{A3610317-CB7D-447E-B7AE-B8E36952470C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3610317-CB7D-447E-B7AE-B8E36952470C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3610317-CB7D-447E-B7AE-B8E36952470C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1FEDC3-4569-4CAA-88CE-88AD12E6397A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1FEDC3-4569-4CAA-88CE-88AD12E6397A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1FEDC3-4569-4CAA-88CE-88AD12E6397A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1FEDC3-4569-4CAA-88CE-88AD12E6397A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE19E74-FFFB-42D8-AC15-06D3E542142D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE19E74-FFFB-42D8-AC15-06D3E542142D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE19E74-FFFB-42D8-AC15-06D3E542142D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE19E74-FFFB-42D8-AC15-06D3E542142D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B2A720-EC48-4AE8-9C10-C71C29BF3202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B2A720-EC48-4AE8-9C10-C71C29BF3202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B2A720-EC48-4AE8-9C10-C71C29BF3202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B2A720-EC48-4AE8-9C10-C71C29BF3202}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +62,9 @@ Global
 		{EABCA30D-A21F-4872-8013-1242EB55E31A} = {2850ED3C-FAA3-4369-BEE3-86912911F1FD}
 		{4E0C427E-F12E-476C-809B-BF20E88672CC} = {E69EC9A3-FAFE-426D-8EC2-B60AD985919D}
 		{A3610317-CB7D-447E-B7AE-B8E36952470C} = {E69EC9A3-FAFE-426D-8EC2-B60AD985919D}
+		{3A1FEDC3-4569-4CAA-88CE-88AD12E6397A} = {53D1A106-78C1-46A2-8504-7D6E5A81C3FF}
+		{CEE19E74-FFFB-42D8-AC15-06D3E542142D} = {53D1A106-78C1-46A2-8504-7D6E5A81C3FF}
+		{88B2A720-EC48-4AE8-9C10-C71C29BF3202} = {EABCA30D-A21F-4872-8013-1242EB55E31A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36B4ED7F-B613-49DC-9643-4160A076C645}
